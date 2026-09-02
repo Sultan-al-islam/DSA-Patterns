@@ -1,5 +1,10 @@
-
 // https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+
+//why 2two pointer this problem
+//Arry,find,sorted
+// Time Complexity: O(n)
+// Space Complexity: O(1) (শুধু কয়েকটি variable ব্যবহার করা হয়েছে)
+
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,5 +36,4 @@ vector<int> twoSum(vector<int> &num, int target)
     }
     return {a, b};
 }
-
 
